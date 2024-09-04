@@ -1,0 +1,54 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do corpo e centralização */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cor de fundo suave */
+}
+
+/* Estilo do card */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px; /* Largura máxima do card */
+}
+
+/* Estilo da foto de perfil */
+.profile-photo {
+    width: 120px; /* Largura da foto */
+    height: 120px; /* Altura da foto */
+    border-radius: 50%; /* Faz a foto ser redonda */
+    object-fit: cover; /* Mantém a proporção da imagem */
+    margin: 0 auto 20px; /* Centraliza a imagem e adiciona margem inferior */
+}
+
+/* Estilo dos links */
+a:link, a:visited {
+    color: #888; /* Cor cinza para links não visitados e visitados */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+    color: #555; /* Cor cinza escuro ao passar o mouse */
+}
+
+a:active {
+    color: #333; /* Cor cinza ainda mais escuro ao clicar */
+}
+
+/* Estilo do texto adicional */
+p {
+    margin-top: 10px; /* Margem superior para separar do texto anterior */
+}
